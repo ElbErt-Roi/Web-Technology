@@ -1,0 +1,21 @@
+
+        h1{
+            color: violet;
+            text-align: center;
+            border-bottom: 4px solid orange;
+        }
+        h2{
+            color: aliceblue;
+            background-color: pink;
+            padding: 2px;
+        }
+        h3{
+            color: beige;
+            background-color: purple;
+            padding: 4px;
+        }
+        h4{
+            color: azure;
+            background-color: blueviolet;
+            padding: 5px;
+        }
