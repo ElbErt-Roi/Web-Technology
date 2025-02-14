@@ -1,10 +1,38 @@
 *{
+    /* Universal Selector */
     margin: 0px;
-    padding: opx
-    ;
+    padding: opx;
+    background-color: aqua;
 }
 
 h1{
+    /* Element Selection */
     text-align: center;
     border-bottom: solid rebeccapurple;
 }
+
+.demo{
+    /* Class Selection */
+
+    background-color: brown;
+    border-radius: 3px;
+    
+}
+#exp{
+    /* ID Selection */
+    margin: 150px;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color:yellow;
+    border: 1px solid red;
+
+
+}
+ p,.demo1,#exp1,h6{
+    /* Group Selection */
+    background-color: blueviolet;
+    text-transform: uppercase;
+    text-align: center;
+
+ }
