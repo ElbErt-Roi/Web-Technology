@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.exp1{
+    color: white;
+    text-align: center;
+    background-color: green;
+    padding: 2px;
+}
+.exp2{
+    text-align: left;
+    background-color: orange;
+    padding: 2px;
+}
+.exp3{
+    background-color: yellow;
+    width: 20%;
+    float: left;
+    padding: 40px;
+    
+}
+.exp4{
+    background-color: slateblue;
+    width: 70%;
+    padding: 40px;
+    
+}
+.exp5{
+    color: white;
+    text-align: center;
+    background-color: green;
+    padding: 2px;
+    clear: both;
+}
+

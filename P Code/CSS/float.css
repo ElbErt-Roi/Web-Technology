@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header */
+.exp1 {
+    text-align: center;
+    background: #ffcc00;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Sidebar - Floated Left */
+.exp2 {
+    background: #ff5733;
+    padding: 20px;
+}
+
+/* Extra Content - Floated Right */
+.exp3 {
+    background: #33ccff;
+    width: 20%;
+    float: left;
+    padding: 20px;
+    min-height: 200px;
+}
+
+/* Main Content */
+.exp4 {
+    background: #4caf50;
+    width: 80%;
+    float: right;
+    padding: 20px;
+    min-height: 200px;
+}
+
+/* Footer */
+.exp5 {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 20px;
+    clear: both; /* Clears the floats */
+}
