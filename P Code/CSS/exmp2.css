@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.title{
+    color:white;
+    background-color: rgb(7, 60, 34);
+    padding: 5px;
+    margin-bottom: 6px;
+}
+.box{
+    text-align: center;
+    width: 600px;
+    background-color: slategrey;
+    height: 620px;
+    margin-left: 30%;
+    margin-top: 6px;
+}
+.header{
+    text-align: center;
+    height: 80px;
+    padding: 30px 0px;
+    background-color: skyblue;
+    margin-bottom: 15px;
+}
+.intro{
+    background-color: skyblue;
+    height: 300px;
+    text-align: center;
+    padding: 140px 0px;
+    width: 66%;
+    float: left;
+    margin-left: 2%;
+
+}
+.body{
+    width: 28%;
+    height: 300px;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 15px;
+
+}
+.hero{
+    text-align: center;
+    background-color: skyblue;
+    height: 245px;
+    padding: 105px 0px;
+    margin-bottom: 15px;
+    
+}
+.call{
+    background-color: yellow;
+    height: 40px;
+    
+}
+.feat{
+    clear: both;
+    background-color: skyblue;
+    text-align: center;
+    height: 80px;
+    padding: 30px 0px;
+    margin-top: 15px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+.more{
+background-color: skyblue;
+height: 50px;
+text-align: center;
+margin-top: 15px;
+width: 66%;
+float: left;
+margin-left: 2%;
+}
+.action{
+    background-color: yellow;
+    height: 50px;
+    text-align: center;
+    margin-top: 15px;
+    width: 28%;
+    float: left;
+    margin-left: 2%;
+    margin-bottom: 15px;
+
+}
+.footer{
+    clear: both;
+    background-color: skyblue;
+    text-align: center;
+    height:50px ;
+
+}
