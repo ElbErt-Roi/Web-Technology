@@ -1,0 +1,54 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.header{
+    width: 79%;
+    float: left;
+    height: 50px;
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+.ads{
+    width: 20%;
+    float: left;
+    height: 50px;
+    background-color:greenyellow;
+    padding: 10px;
+    margin-left: 1%;
+}
+
+.nav{
+    width: 20%;
+    background-color:greenyellow;
+    float: left;
+    height: 400px;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+.body{
+    height: 400px;
+    float: left;
+    width: 79%;
+    margin-top: 15px;
+    margin-left: 1%;
+}
+
+.article{
+    height: 305px;
+    clear: both;
+    background-color: greenyellow;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.footer{
+    height: 80px;
+    clear: both;
+    background-color:greenyellow;
+    padding: 10px;
+}
