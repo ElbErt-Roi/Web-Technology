@@ -15,16 +15,17 @@
     padding: 2px;
 }
 .exp3{
+    height: 100px;
     background-color: yellow;
-    width: 20%;
+    width: 30%;
     float: left;
-    padding: 40px;
     
 }
 .exp4{
+    height: 100px;
     background-color: slateblue;
+    float: left;
     width: 70%;
-    padding: 40px;
     
 }
 .exp5{
