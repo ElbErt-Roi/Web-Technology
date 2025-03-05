@@ -1,0 +1,40 @@
+div {
+    font-size: 24px;
+    padding: 12px;
+}
+
+div.greenyellow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* specifying z-index value */
+    z-index: 3;
+    width: 300px;
+    height: 280px;
+    background-color: greenyellow;
+}
+
+div.orange {
+    position: absolute;
+    top: 190px;
+    left: 0;
+    /* specifying z-index value */
+    z-index: 10;
+    opacity: 0.9;
+    width: 220px;
+    height: 150px;
+    margin-top: -120px;
+    background-color: orangered;
+}
+
+div.skyblue {
+    position: absolute;
+    top: 120px;
+    left: 160px;
+    /* specifying z-index value */
+    z-index: 16;
+    width: 280px;
+    height: 150px;
+    padding-left: 120px;
+    background-color: skyblue;
+}

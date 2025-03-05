@@ -1,0 +1,12 @@
+#data{
+    text-align: center;
+    color: white;
+    height: 1500px;
+    width: 100%;
+    border: 2px solid rebeccapurple;
+    background-image: url(../image/flower.jpg);
+    background-size: 100%;
+    background-position: left;
+    background-attachment: fixed;
+
+}

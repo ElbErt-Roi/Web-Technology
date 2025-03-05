@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex{
+    height: 600px;
+    margin: 50px 15%;
+    width: 70%;
+    background: url(../image/flex/bkground.webp);
+    background-repeat: no-repeat;
+    background-size:100%;
+    display: flex;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex img{
+    height: 250px;
+    width: 20%;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 20px;
+
+}
+img:hover{
+    cursor:pointer ;
+    opacity: 0.8;
+    transition: 0.5s;
+
+}
+
