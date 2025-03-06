@@ -4,19 +4,27 @@
     box-sizing: border-box;
 }
 .flex-container{
+    width: 80%;
     height: 700px;
+    margin: 20px 10%;
     background-color: aqua;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
+    border-radius: 15px;
 }
 .flex-container div{
     width: 20%;
-    margin: 10px;
+    margin: 20px;
 }
 
 div img{
     height: 300px;
     width: 100%;
     border-radius: 20px;
+}
+div img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
 }
