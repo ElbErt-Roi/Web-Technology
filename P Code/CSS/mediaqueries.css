@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(209, 209, 16);
+}
+ul{display: flex;justify-content: space-evenly;
+    background-color:orangered;
+    padding: 20px;
+    color: white;
+}
+@media (min-width:600px) and
+ (max-width:900px) {
+    body{
+        background-color: rgb(22, 184, 81);
+    }
+    ul{display: block;}
+}
+@media (max-width:600px) {
+    body{
+        color: white;
+        background-color: #33a;
+    }
+    ul{display: block;}
+    img{display: none;}
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+body img{
+    margin: 10px 20%;
+}
+ul li:nth-child(1):hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.5s;
+
+
+}
