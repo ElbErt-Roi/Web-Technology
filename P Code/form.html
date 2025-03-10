@@ -4,34 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="CSS/form.css">
 </head>
 <body>
-    <form action="" method="" enctype="multipart/form-data" name="login" >
+    <h1>Form</h1>
+    <form action="#" method="post" enctype="multipart/form-data">
         <fieldset>
-            <h1>Login</h1>
-            <div class="form-box">
-                <label for="">Email</label>
-                <br>
-                <input type="email" placeholder="Email" required>
+            <legend>User Registration Form</legend>
+            <div class="form-group">
+                <label for="">Name</label>
+                <input type="text" id="name" name="name" required>
             </div>
-            <div class="form-box">
-                <label for="">Password</label>
-                <br>
-                <input type="password" name="name" placeholder="Password" required>
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
             </div>
-            <div class="rember">
-                <label for=""><input type="checkbox">Remember me</label>
-                <a href="#">Forgot Password?</a>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
             </div>
-            <div class="btm">
-            <input type="submit" value="LOGIN">
+            <div class="form-group">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="">Select Country</option>
+                    <optgroup label="Asia">
+                        <option>Nepal</option>
+                        <option value="+91">+91-India</option>
+                    </optgroup>
+                </select>
             </div>
-            <div class="register">
-                <p>Don't have an Account? <a href="#">Register</a></p>
-
+            <div class="form-group">
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" value="m">male
+                <input type="radio" name="gender" id="female" value="f">Female
             </div>
-
+            <div class="form-group">
+                <label for="course">Course</label>
+                <input type="checkbox" name="course[]" id="php">PHP
+                <input type="checkbox" name="course[]" id="JS">JavaScript
+            </div>
+            <div class="form-group">
+                <label for="profile">Profile</label>
+                <input type="file" name="profile">
+            </div>
+            <div class="form-group">
+                <label for="dob">DOB</label>
+                <input type="date" name="dob" min="2025-02-15" id="dob" />
+            </div>
+            <div class="form-group">
+                <label for="comment">Bio</label>
+                <textarea name="bio" id="bio"></textarea>
+            </div>
+            <div class="form-group btn">
+                <input type="submit" value="Register">
+                <input type="reset" value="Clear">
+            </div>
         </fieldset>
     </form>
 </body>

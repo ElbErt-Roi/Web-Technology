@@ -1,53 +1,76 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-fieldset{
-    height: 500px;
-    width: 25%;
-    border-radius: 25px;
-    margin: 30px auto;
-    padding: 50px;
-}
-.form-box{
-    width: 100%;
-    height: 50px;
-    margin-bottom: 10px;
-}
 h1{
-    margin: 20px;
     text-align: center;
-    font-size: 40px;
-    font-style: italic;
-    margin-bottom: 100px;
 }
- 
- .form-box input{
-    width: 100%;
-    height: 70%;
-    border-radius: 10px;
- }
- .form-box ::placeholder{
+
+fieldset{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+}
+
+fieldset legend{
+    text-align: center;
+}
+
+div.form-group{
     padding: 10px;
- }
+    border-bottom: 1px solid green;
+}
 
- .form-box input{
-    padding: 10px;
+div.form-group label{
+    color: #9a6;
+    width: 100px;
+    display: inline-block;
+}
 
- }
+div.form-group input,select,textarea{
+    width: 70%;
+}
 
- .btm input{
-    color: white;
-    width: 100%;
-    height: 35px;
-    background-color: rgb(66, 66, 241);
-    border-radius: 12px;
-    border: none;
-    margin: 15px 0px;
- }
- .btm :hover{
-    background-color:orangered;
- }
- 
+div.form-group input[type=radio]{
+    width: 5%;
+}
+
+div.form-group input[type=checkbox]{
+    width: 5%;
+}
+
+
+div.form-group.btn input{
+    width: 20%;
+    border:none;
+    padding: 5px 0;
+}
+
+div.form-group.btn input[type=submit]{
+    background-color: rgb(21, 75, 21);
+    color:white;
+}
+
+
+div.form-group.btn input[type=reset]{
+    background-color: rgb(205, 38, 38);
+    color:white;
+}
+
+div.form-group:last-child{
+    border-bottom: none;
+}
+
+div.form-group:nth-child(3n){
+    background-color: aliceblue;
+}
+
+div.form-group:nth-child(3n+1){
+    background-color: rgb(39, 67, 93);
+}
+
+div.form-group:nth-child(3n+2){
+    background-color: rgb(245, 246, 247);
+}

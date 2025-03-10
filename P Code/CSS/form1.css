@@ -1,0 +1,91 @@
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+fieldset legend{
+    text-align: center;
+}
+
+fieldset{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.form-group{
+    border-bottom: 2px solid green;
+    padding: 10px;
+}
+.form-group label{
+    width: 100px;
+    display: inline-block;
+}
+
+.form-group input,select,textarea{
+    width: 60%;
+    height: 25px;
+}
+
+.form-group textarea{
+    height: 50px;
+
+}
+
+.form-group input[type=radio],input[type=checkbox]{
+    width: 5%;
+    height: 15px;
+}
+
+.form-group.btn-group input{
+    width: 100px;
+    border: 0;
+}
+
+.form-group.btn-group input[type=submit]{
+   background-color: rgb(44, 70, 36);
+   color: white;
+}
+
+.form-group.btn-group input[type=reset]{
+    background-color: rgb(232, 22, 22);
+    color: white;
+ }
+
+ .form-group.btn-group input[type=reset]:hover{
+    background-color: aqua;
+ }
+
+ .form-group:last-child{
+    border: none;
+ }
+
+ .form-group:nth-child(3n){
+    background-color: #9f6;
+ }
+
+ 
+ .form-group:nth-child(3n+1){
+    background-color: rgb(152, 188, 134);
+ }
+
+ .form-group:nth-child(3n+2){
+    background-color: rgb(68, 185, 221);
+ }
+
+ .top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.bottom{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
