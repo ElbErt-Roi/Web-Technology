@@ -47,7 +47,7 @@ fieldset{
 
 .form-group.btn-group input[type=submit]{
    background-color: rgb(44, 70, 36);
-   color: white;
+   color: rgb(209, 206, 206);
 }
 
 .form-group.btn-group input[type=reset]{

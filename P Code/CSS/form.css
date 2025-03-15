@@ -35,6 +35,7 @@ div.form-group input,select,textarea{
 
 div.form-group input[type=radio]{
     width: 5%;
+    color: white;
 }
 
 div.form-group input[type=checkbox]{

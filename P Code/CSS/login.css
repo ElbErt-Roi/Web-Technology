@@ -9,7 +9,8 @@ fieldset{
     width: 25%;
     border-radius: 25px;
     margin: 30px auto;
-    padding: 50px;
+    padding: 70px;
+    border: 1px solid green;
 }
 .form-box{
     width: 100%;
