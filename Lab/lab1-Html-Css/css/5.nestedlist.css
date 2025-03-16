@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+.card1 ,.card2{
+    border: 1px solid black;
+    width: 50%;
+    padding: 25px;
+}
+h2,p{
+    margin: 25px 10px;
+
+}
+.card1 ul{
+    margin-left: 30px;
+}
+.card2 ol{
+    margin-left: 30px;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card{
+    border: 1px solid rgb(180, 185, 180);
+    height: 200px;
+    width: 32%;
+    margin-top: 25px;
+    margin-left: 1%;
+    background-color: rgb(229, 229, 217);
+    border-radius: 6px;
+    
+
+}
+.card ul,ol{
+    margin: 30px;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.card1 ol{
+    list-style: none;
+    counter-reset: list-counter;
+}
+.card ol li{
+    counter-increment: list-counter;
+    text-transform: lowercase;
+}
+.card1 ol li::before{
+    content: counter(list-counter,decimal-leading-zaro)".";
+}
