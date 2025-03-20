@@ -12,7 +12,7 @@
     flex-wrap: wrap;
 
 }
-.card{
+.card,.card1{
     border: 1px solid rgb(180, 185, 180);
     height: 200px;
     width: 32%;

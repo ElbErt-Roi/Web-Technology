@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+h2{
+    margin: 20px;
+    font-style: italic;
+}
+select option{
+    font-style: italic;
+}
