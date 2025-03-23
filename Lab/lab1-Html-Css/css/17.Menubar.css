@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:blue;
+    height: 50px;
+    padding: 10px;
+}
+.cont{
+    background-color:blue;
+    margin-top: 30px;
+    width: 15%;
+    padding: 20px;
+    margin-left: 40%;
+}
+b{
+    margin-left: 25px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 40%;
+
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+}
+p{
+    border: 1px solid white;
+    margin-left: 50px;
+    padding: 3px;
+}
+h5{
+    border: 1px solid black;
+    width: 80%;
+    padding: 6px;
+    text-align: center;
+    background-color: blue;
+}
+.cont1{
+    margin-top: 10px;
+}
