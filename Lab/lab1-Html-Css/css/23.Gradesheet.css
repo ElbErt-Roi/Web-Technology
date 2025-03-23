@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+img{
+    height: 120px;
+    width: 120px;
+    margin-right: 15%;
+    margin-left: 1%;
+}
+.card{
+    display: flex;
+}
+.box{
+    border: 1px solid red;
+    width: 60%;
+    margin-left: 20%;
+    color:blue;
+}
+h2,h5{
+    text-align: center;
+    margin-bottom: 30px;
+}
+p,b{
+    margin: 10px 20px;
+}
+b{
+    text-decoration: underline;
+    color: black;
+}
+table,th,td,tr{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+    border-collapse: collapse;
+    margin: 50px;
+}
+ul,ol,li{
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+.card1{
+    display: flex;
+}
+.cd{
+    margin-left: 50%;
+
+}

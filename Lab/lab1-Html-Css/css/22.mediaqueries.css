@@ -15,8 +15,8 @@ div{
 .main{
     height: 600px;
     width: 60%;
-    float: left;
     background-color: white;
+    float: right;
 }
 .left{
     background-color: yellow;
@@ -26,8 +26,7 @@ div{
 }
 .right{
     background-color: green;
-    height: 600px;s
-    
+    height: 600px;
 }
 .footer{
     background-color: skyblue;

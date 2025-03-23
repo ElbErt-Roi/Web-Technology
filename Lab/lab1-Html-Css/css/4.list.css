@@ -30,14 +30,6 @@ h2{
     text-align: center;
     margin-top: 30px;
 }
-.card1 ol{
-    list-style: none;
-    counter-reset: list-counter;
-}
-.card ol li{
-    counter-increment: list-counter;
-    text-transform: lowercase;
-}
-.card1 ol li::before{
-    content: counter(list-counter,decimal-leading-zaro)".";
+.card1 ol {
+list-style-type: decimal-leading-zero;
 }

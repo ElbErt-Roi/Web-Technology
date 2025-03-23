@@ -1,5 +1,88 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
+body{
+    justify-content: center;
+    padding: 25px;
+}
+.card1{
+    background-color:yellowgreen;
+    border-radius: 15px;
+    padding: 15px;
+}
+.card2{
+    background-color: orangered;
+    color: white;
+    border-radius: 15px;
+    padding: 15px;
+}
+.cd1{
+    height: 10px;
+    width: 65%;
+    background-color:white;
+    border-radius: 20px;
+
+}
+.cd2{
+    height: 10px;
+    width: 35%;
+    background-color: black;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+.cd3{
+    height: 10px;
+    width: 70%;
+    background-color:white;
+    border-radius: 20px;
+
+}
+.cd4{
+    height: 10px;
+    width: 30%;
+    background-color: black;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+.cd5{
+    height: 10px;
+    width: 30%;
+    background-color:white;
+    border-radius: 20px;
+
+}
+.cd6{
+    height: 10px;
+    width: 70%;
+    background-color: black;
+    border-radius: 20px;
+    margin-right: 10px;
+
+}
+.cd,body{
+    display: flex;
+    margin: 5px;
+}
+.clz{
+    background-color:white;
+    color: orangered;
+    padding: 10px;
+    border-radius: 15px;
+}
+span img{
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+    background-color: white;
+    border-radius: 12px;
+}
+ol li:last-child{
+    padding-bottom: 20px;
+}
+.card1 img{
+    height: 160px;
+    width: 160px;
+    border-radius: 160px;
+    margin: 20px 20px 0px 100px;
+    border: 5px solid orangered;
 }

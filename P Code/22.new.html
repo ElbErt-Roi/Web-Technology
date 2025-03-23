@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      display: grid;
+      height: 100%;
+    }
+
+    .container {
+      grid-template-areas:
+        "header"
+        "main"
+        "left"
+        "right"
+        "footer";
+      grid-template-columns: 1fr;
+    }
+
+    header { grid-area: header; background: #f4b41a; }
+    main { grid-area: main; background: #2196f3; }
+    .left { grid-area: left; background: #4caf50; }
+    .right { grid-area: right; background: #ff5722; }
+    footer { grid-area: footer; background: #795548; }
+
+    @media (min-width: 600px) {
+      .container {
+        grid-template-areas:
+          "header header"
+          "main main"
+          "left right"
+          "footer footer";
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (min-width: 900px) {
+      .container {
+        grid-template-areas:
+          "header header header"
+          "left main right"
+          "footer footer footer";
+        grid-template-columns: 1fr 2fr 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>Header</header>
+    <aside class="left">Left</aside>
+    <main>Main</main>
+    <aside class="right">Right</aside>
+    <footer>Footer</footer>
+  </div>
+</body>
+</html>
