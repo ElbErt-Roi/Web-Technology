@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="PatientDetails">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="title" type="xs:string"/>
+<xs:element name="patient">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="patients" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="name">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="fname" type="xs:string"/>
+<xs:element name="mname"  type="xs:string" minOccurs="0"/>
+<xs:element name="lname" type="xs:string"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="Pnum" type="xs:string"/>
+<xs:element name="Dname" type="xs:string"/>
+<xs:element name="Disease" type="xs:string" maxOccurs="unbounded"/>
+<xs:element name="charge" type="xs:string"/>
+<xs:element name="test" type="xs:string" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:sequence>
+</xs:complexType>
+
+</xs:element>
+</xs:schema>

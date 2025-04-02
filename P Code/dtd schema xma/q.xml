@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<phoneNumbers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="q1.xsd">
+    <title>List of phoneNumbers</title>
+    <entries>
+      <entry>
+          <name>
+            <first>Ram</first>          
+            <last>Thapa</last>
+          </name>
+          <phone>987545454</phone>
+          <city>KTM</city>
+      </entry>    
+    </entries>
+</phoneNumbers>

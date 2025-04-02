@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<PatientDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="q2.xsd">
+<title>Patient list Details</title> 
+<patient>
+<patients>
+<name>
+<fname>Raju</fname>
+<mname>Bhadur</mname>
+<lname>Thapa</lname>
+</name>
+<Pnum>420</Pnum>
+<Dname>Dr.Suresh</Dname>
+<Disease>flue</Disease>
+<Disease>fever</Disease>
+<charge>700</charge>
+<test>oii</test>
+</patients>
+</patient>
+ </PatientDetails>
