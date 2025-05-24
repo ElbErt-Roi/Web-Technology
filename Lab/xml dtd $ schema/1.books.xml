@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book SYSTEM "file:/C:/Users/Lenovo/Desktop/web%20Lab/Lab/xml%20dtd%20$%20schema/2.books.dtd">
+<book xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Lenovo/Desktop/web%20Lab/Lab/xml%20dtd%20$%20schema/2.books.xsd">
+    <Books>
+        <Title>Muna Madan</Title>
+        <Author>Laxmi Prasad Devkota</Author>
+        <ISBN>111</ISBN>
+        <Publisher>Sajha Publications</Publisher>
+        <Edition>1st</Edition>
+        <Price>250</Price>
+    </Books>
+    <Books>
+        <Title>Shirishko Phool</Title>
+        <Author>Bishnu Kumari Waiba</Author>
+        <ISBN>222</ISBN>
+        <Publisher>Sajha Publications</Publisher>
+        <Edition>1st</Edition>
+        <Price>220</Price>
+    </Books>
+</book>

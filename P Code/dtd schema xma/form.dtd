@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE form [ 
+ <!ELEMENT form (forms+)>
+<!ELEMENT name (fname,mname?,lname)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT mname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT gender (male | female)>
+<!ELEMENT gender (#PCDATA)>
+]>

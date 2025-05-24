@@ -1,0 +1,22 @@
+<!ELEMENT sales (salesman+)>
+<!ELEMENT salesman (name,phone+,area,records)>
+<!ELEMENT name (first, middle?, last)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT middle (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ATTLIST name title (MR | MS | MRS) "MR">
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST phone type (personal | work | home) "personal">
+<!ELEMENT area (#PCDATA)>
+<!ELEMENT records (record+)>
+<!ELEMENT record (product+,quantity,price,date)>
+<!ELEMENT product (sku,product_name)>
+<!ELEMENT sku (#PCDATA)>
+<!ELEMENT product_name (#PCDATA)>
+
+<!ATTLIST product productid CDATA #REQUIRED>
+<!ELEMENT quantity (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST price currency (NPR |  INR  |  USD) "NPR">
+<!ATTLIST date type (ad | bs) #REQUIRED>

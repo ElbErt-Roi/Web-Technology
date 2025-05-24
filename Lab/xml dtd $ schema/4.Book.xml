@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<books xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Lenovo/Desktop/web%20Lab/Lab/xml%20dtd%20$%20schema/4.Book.xsd">
+    <book isbn="123">
+        <title>XML Mastery</title>
+        <author title="mr">
+            <name>
+                <firstname>Ram</firstname>
+                <middlename>Bhadur</middlename>
+                <lastname>Williams</lastname>
+            </name>
+            <phone>98843210</phone>
+            <email>Ramb123@gmail.com</email>
+        </author>
+        <pageno>350</pageno>
+        <price currency="USD">45.99</price>
+    </book>
+</books>

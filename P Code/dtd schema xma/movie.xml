@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/Lenovo/Desktop/web%20Lab/P%20Code/dtd%20schema%20xma/movie.xsd">
+  <Movie id="654" >
+    <title>Anjila</title>
+    <year>2025</year>
+    <_director name="Milan">Milan Champs</_director>
+    <comment lang="en">Nepal </comment>
+    <comment lang="np">Very Nice </comment>
+    <newcomment>Best Movies</newcomment>
+  </Movie>
+  <Movie id="32" >
+    <title>Basanta</title>
+    <year>2025</year>
+    <_director name="Prakash">Prakash Saput</_director>
+    <comment lang="en">Nepal </comment>
+    <comment lang="np">Very Nice </comment>
+    <newcomment>Best Movies</newcomment>
+  </Movie>
+</movies>

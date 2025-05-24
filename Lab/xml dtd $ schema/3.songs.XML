@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<songs>
+  <song>
+    <name>Summer of  69</name>
+    <singer>Bryan Adams</singer>
+    <composed_by>Jim Vallance</composed_by>
+    <length>3:35</length>
+  </song>
+  <song>
+    <name>Love Story</name>
+    <singer>Taylor Swift</singer>
+    <composed_by>Taylor Swift</composed_by>
+    <length>3:56</length>
+  </song>
+  <song>
+    <name>Sun ko Bala</name>
+    <singer>Avinash Ghising.</singer>
+    <composed_by>Kiran Ghimire</composed_by>
+    <length>5:11</length>
+  </song>
+  <song>
+    <name>Sun</name>
+    <singer>Meera Basnet</singer>
+    <composed_by>Rajendra Rai</composed_by>
+    <length>4:45</length>
+  </song>
+</songs>
