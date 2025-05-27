@@ -1,0 +1,36 @@
+Title {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    display: block;
+    text-align: left;
+    background-color: lightskyblue;
+    padding: 10;
+    margin: 10;
+    border: 2px solid lightskyblue;
+    width: 200px;
+}
+
+Oceans {
+    font-family: Arial, sans-serif;
+    border: 5px solid lightskyblue;
+    padding: 0; /* Removed padding */
+    margin: 0;  /* Removed margin */
+}
+Ocean {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+Name {
+    font-size: 20px;
+    font-weight: bold;
+    color: navy;
+}
+
+Area, MeanDepth {
+    display: block;
+    font-size: 16px;
+    margin-left: 10px;
+}
