@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> 
-<?xml-stylesheet type="text/xsl" href="file:/D:/Chapter3Lab/14.xsl"?>
+<?xml-stylesheet type="text/xsl" href="file:/C:/Users/Lenovo/Desktop/web%20Lab/Lab/xml%20dtd%20$%20schema/14.xsl"?>
 <catalog> 
   <book id="bk101">
   <author>Gambardella, Matthew</author> 
-    <title>XML Developer's Guide</title> 
+    <title>XML Developer's Guide</title>
     <genre>Computer</genre> 
     <price>44.95</price> 
     <publish_date>2000-10-01</publish_date> 
@@ -12,11 +12,18 @@
   </book> 
    <book id="dk102">
   <author>Matthew</author> 
-    <title>XML Developer's Guide</title> 
+    <title>Developer's Guide</title> 
     <genre>Computer</genre> 
     <price>66.95</price> 
-    <publish_date>2001-10-01</publish_date> 
-    <description>An in-depth look at creating applications 
-      with XML.</description> 
+    <publish_date>2005-10-01</publish_date> 
+    <description>creating applications  with XML.</description> 
   </book> 
+  <book id="dk103">
+  <author>Matt</author> 
+    <title>XML</title> 
+    <genre>Computer</genre> 
+    <price>616.95</price> 
+    <publish_date>2009-10-01</publish_date> 
+    <description>An in-depth look at creating</description> 
+  </book>
 </catalog> 

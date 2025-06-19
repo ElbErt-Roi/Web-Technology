@@ -40,7 +40,7 @@
                             </xs:element>
                             <xs:element name="LabTests">
                                 <xs:complexType>
-                                    <xs:sequence>
+                                <xs:sequence>
                                         <xs:element name="Test" type="xs:string" maxOccurs="unbounded"/>
                                     </xs:sequence>
                                 </xs:complexType>
